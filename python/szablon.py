@@ -5,7 +5,10 @@
 #  
 
 def main(args):
-    print("Witam") 
+	
+   a = int(input("Podaj 1. liczbę: ")) 
+	 
+   
     
     
     
