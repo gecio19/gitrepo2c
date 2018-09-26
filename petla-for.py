@@ -14,7 +14,7 @@ def main(args):
     if start>= stop:
         print("Błędnę dane!")
         exit(0)
-    for i in range(start, stop + 1):
+    for i in range(start, stop = 100):
         if i % 2 == 0:
             print(i)
         else:
