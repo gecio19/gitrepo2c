@@ -23,11 +23,11 @@ def main(args):
     while a < 75:   #Pętla pobiera cyfrę a i sprawdza czy jest mniejsza od 75 jeżeli jest mniejsza pobiera kolejną cyfre (b) i dodaję ją do a i powtarza funckję do czasu gdy a będzie większe od 75
 	
         
-        b = int(input("Podaj 2. liczbę: ")) 
+        b = int(input("Podaj kolejną liczbę: ")) 
         a = a + b
         
    
-         
+    print("Suma liczb", a)     
     
     return 0
 

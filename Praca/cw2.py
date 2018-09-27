@@ -29,7 +29,7 @@ def main(args):
 	
 	for i in range(n, m):         # Funckcja pobiera zmienne n i m ustawia je jako pierwszą i drugą cyfrę zbioru i wyposuje je 
 	
-		print (i)
+		print (i, "")
 	
 	
 	
