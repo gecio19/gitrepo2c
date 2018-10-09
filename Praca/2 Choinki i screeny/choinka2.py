@@ -12,10 +12,10 @@ def prostokat(a, b, znak):
 def prostokat2(a, b, znak, znak2):
     for i in range(a):
         for j in range(b):
-            if j == 0 or j == b - 1 or i == 0 or i == a - 1:
-                print(znak, end='')
+            if j == 0 or i == 0:
+                print(znak  , end='')
             else:
-                print(znak2, end='')
+                print(znak2 * b, end='')
         print()
         
         
@@ -29,11 +29,12 @@ def main(args):
     znak = (input("Podaj pierwszy znak:"))
     znak2 = (input("Podaj drugi znak:"))
     
+    b = b - 1
     
     prostokat(a, b, znak)
     print(" ")  
     prostokat2(a, b, znak, znak2)
-    pirnt(" ")
+    
     
     
     return 0
