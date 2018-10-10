@@ -9,9 +9,9 @@ def prostokat(a, b, znak):
         print()
         
         
-def prostokat2(a, b, znak, znak2):
+def prostokat2(a, znak, znak2):
     for i in range(a):
-        for j in range(b):
+        for j in range(a):
             if j == 0 or i == 0:
                 print(znak  , end='')
             else:
