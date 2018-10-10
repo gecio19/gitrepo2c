@@ -14,17 +14,18 @@ def liczby2():
     
     
     licznik = 0
-    for i in range(1, 10): # Pętla dziesiątek
-        for j in range(10):# Petla jedności
-            if j != i:                                   #"!=" oznacza jest rózna
-                print("{}{} ".format(i, j), end="")
-                licznik = licznik + 1 #zliczanie liczb
+    for i in range(1, 10):        # Pętla dziesiątek
+        for j in range(10):          # Petla jedności
+			for k in range(10):
+				if i != j != k != i:                                   #"!=" oznacza jest rózna
+					print("{}{}{} ".format(i, j, k), end=" ")
+					licznik = licznik + 1 #zliczanie liczb
     return licznik
 
 
 def main(args):
     
-    print("liczczb 2-cyfrowych:", liczby2())
+    print("liczczb 3-cyfrowych:", liczby2())
     
     
     def liczby3():
