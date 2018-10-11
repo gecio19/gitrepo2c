@@ -4,7 +4,7 @@
 #  liczby23.py
 
 
-def liczby2():
+def liczby3():
     """
     Funkcja drukuje wszystkie liczby 2- crfrowe, w którch nie powatrzają się cyfry. 
     Na koniec zwraca ilośc takich liczb.
@@ -16,26 +16,16 @@ def liczby2():
     licznik = 0
     for i in range(1, 10):        # Pętla dziesiątek
         for j in range(10):          # Petla jedności
-			for k in range(10):
-				if i != j != k != i:                                   #"!=" oznacza jest rózna
-					print("{}{}{} ".format(i, j, k), end=" ")
-					licznik = licznik + 1 #zliczanie liczb
+            for k in range(10):      
+                if i != j != k != i:                                   #"!=" oznacza jest rózna
+                    print("{}{}{} ".format(i, j, k), end=" ")
+                    licznik = licznik + 1 #zliczanie liczb
     return licznik
 
 
 def main(args):
     
-    print("liczczb 3-cyfrowych:", liczby2())
-    
-    
-    def liczby3():
-        
-        pass    
-    
-    #Drukuje liczby 3 cyfrowe
-    
-    
-    
+    print("\n\nliczczb 3-cyfrowych:", liczby3())
     
     return 0
 
