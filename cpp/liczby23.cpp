@@ -26,6 +26,33 @@ int liczby2(){
     
 
 
+int liczby3(){
+    int ile = 0;
+    for(int i = 1; i < 10;i++) {
+        for(int j = 1; j <10; j++) {
+			for(k; k < 10; k++){
+            
+            if (j != i; i != k; j!= j) {
+                    cout << i << j << " ";
+                    ile++;
+                }
+            }
+        }  
+        return ile;
+	}
+}	
+    
+
+
+
+
+
+
+
+
+
+
+
 
 
 int main(int argc, char **argv)
