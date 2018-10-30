@@ -7,6 +7,7 @@ def prostokat(a, b, znak):
         for j in range(b):
             print(znak, end='')
         print()
+        return 
         
         
 def prostokat2(a, b, znak, znak2):
