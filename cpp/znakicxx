@@ -1,0 +1,21 @@
+/*
+ * znakicxx
+ * 
+ * Copyright 2018  <>
+ 
+ */
+
+
+#include <iostream>
+
+int main(int argc, char **argv)
+{
+    const int rozmiar = 20;
+    char tab[rozmiar];
+    cout << "We no podaj imie?" << endl;
+    cin >> tab;
+    cout << "Cześć" << tab << "!" << endl;
+	
+	return 0;
+}
+
