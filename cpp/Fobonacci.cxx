@@ -13,6 +13,17 @@
 
 using namespace std;
 
+long int fibonacci_re(int n)
+{
+    if(n == 0){
+        return 0;
+    }
+    else(n == 1)
+    
+        return 1;
+      
+    return fibonacci_re(n);
+}
 long int fibonacci_it(int n){
     
     long int wynik = 0; 
@@ -65,7 +76,7 @@ int main(int argc, char **argv)
     
     // instrukcja które wydrkuje wszystkie poprzednie ciągi 
     cout << fibonacci_it(n);
-    
+    cout << fibonacci_re(n);
     
     
     
