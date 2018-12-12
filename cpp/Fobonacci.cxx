@@ -15,15 +15,16 @@ using namespace std;
 
 long int fibonacci_re(int n)
 {
-    if(n == 0){
-        return 0;
-    }
-    else(n == 1)
+    if (n== 0) return 0;
+    if (n== 1) return 1;
+    return fibonacci_re(n-1) + fibonacci_re(n-2);
+
     
-        return 1;
-      
-    return fibonacci_re(n);
-}
+    
+    
+    }
+
+
 long int fibonacci_it(int n){
     
     long int wynik = 0; 
@@ -74,9 +75,15 @@ int main(int argc, char **argv)
     
     
     
+    for(int i = 0; i <=n; i++)
+    {
+        cout  << (float)fibonacci_it(i+1) / (float)fibonacci_it(i) << endl;
+        
+        
+        }
     // instrukcja które wydrkuje wszystkie poprzednie ciągi 
-    cout << fibonacci_it(n);
-    cout << fibonacci_re(n);
+    
+    cout << fibonacci_re(n) << endl;
     
     
     
